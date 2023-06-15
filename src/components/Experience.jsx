@@ -1,5 +1,5 @@
 import React from "react";
-import { useLottie, useLottieInteractivity } from "lottie-react";
+import LottieInteractive from "lottie-interactive";
 
 // import html from "../assets/html.png";
 // import css from "../assets/css.png";
@@ -81,10 +81,10 @@ const Experience = () => {
             key={1}
             className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${"shadow-orange -500"}`}
           >
-            <useLottieInteractivity
+            <LottieInteractive
               path="jsLogo"
               interactive="hover"
-            ></useLottieInteractivity>
+            ></LottieInteractive>
             {/* <Lottie-interactive
               className="w-20 mx-auto"
               animationData={jsLogo}
